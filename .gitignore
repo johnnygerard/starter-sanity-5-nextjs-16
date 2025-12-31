@@ -24,3 +24,5 @@
 # Sanity
 /.sanity/
 /dist/
+/schema.json
+/sanity.types.ts
