@@ -41,7 +41,7 @@
   "engines": {
     "node": "24"
   },
-  "name": "starter-nextjs-16",
+  "name": "starter-sanity-5-nextjs-16",
   "private": true,
   "scripts": {
     "build": "next build",
