@@ -17,3 +17,12 @@
 /playwright/.auth/
 /playwright/.cache/
 /test-results/
+
+# Environment files
+/.env.local
+
+# Sanity
+/.sanity/
+/dist/
+/schema.json
+/sanity.types.ts
