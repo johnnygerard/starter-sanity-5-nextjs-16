@@ -23,9 +23,6 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        env:
-          NEXT_PUBLIC_SANITY_DATASET: ${{ vars.NEXT_PUBLIC_SANITY_DATASET }}
-          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ vars.NEXT_PUBLIC_SANITY_PROJECT_ID }}
         run: npm run e2e
 
       - name: Upload Playwright Report
